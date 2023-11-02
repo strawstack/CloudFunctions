@@ -2,10 +2,6 @@
 
 Cloud Functions with Firestore Access Hosted with Google App Engine.
 
-# Notes
-
-This repository is automatically built when new code is pushed, and is hosted on Google App Engine.
-
 # Setup
 
 This is a Node JS + Express Server that is hosted on Google App Engine. The Express server has access to Firebase:Firestore. This code is automatically deployed to App Engine using Cloud Build when new code is pushed to this repo.  
