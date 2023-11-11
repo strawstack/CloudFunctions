@@ -1,6 +1,6 @@
 # rchapp
 
-Cloud Functions with Firestore Access Hosted with Google App Engine.
+Functions hosted in the cloud with optional access to a Firestore instance.
 
 # Setup
 
