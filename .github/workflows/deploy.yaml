@@ -1,5 +1,5 @@
 name: SSH Deploy
-on: [push]
+on: []
 jobs:
   deploy:
     runs-on: ubuntu-latest
