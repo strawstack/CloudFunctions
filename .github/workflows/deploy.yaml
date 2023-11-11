@@ -1,0 +1,12 @@
+name: SSH Deploy
+on: [push]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy Server Step
+        uses: strawstack/ssh-node-server-setup@main
+        with:
+          server-host: ${{ secrets.HOST_NAME }}
+          user-email: ${{ secrets.USER_EMAIL }}
+          ssh-key: ${{ secrets.SSH_KEY }}
