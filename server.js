@@ -9,15 +9,7 @@ const __dirname = path.dirname(__filename);
 
 const app = express();
 
-const firebaseConfig = {
-  apiKey: "AIzaSyAmcwnXs0OphfaXa6xGJVJh1Hw6wiribz8",
-  authDomain: "rchapp-d1f0a.firebaseapp.com",
-  projectId: "rchapp",
-  storageBucket: "rchapp.appspot.com",
-  messagingSenderId: "704147260511",
-  appId: "1:704147260511:web:274a572a3b8f5f273547ea",
-  measurementId: "G-KLLME3REE2"
-};
+const firebaseConfig = CONFIG_HERE;
 
 const firebase_app = initializeApp(firebaseConfig);
 const db = getFirestore(firebase_app);
